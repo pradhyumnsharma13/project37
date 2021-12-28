@@ -49,7 +49,7 @@ class Quiz {
         debugger;
         var correctAns = "2";
 
-         if (correctAns !== allContestants[plr].answer){
+         if (correctAns === allContestants[plr].answer){
            fill("Green")
          }
          else{
